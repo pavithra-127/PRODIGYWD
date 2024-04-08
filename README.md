@@ -20,12 +20,12 @@ Welcome to my GitHub repository showcasing the tasks I completed during my inter
 
 **Personal Portfolio Website**
 
-Description: Designed and built a personal portfolio website showcasing my skills, projects, and accomplishments as a web developer.
+**Description:** Designed and built a personal portfolio website showcasing my skills, projects, and accomplishments as a web developer.
 
-Features: Home page with captivating headline, professional photo, and skill summary About Me section with detailed background, education, and experience
+**Features:** Home page with captivating headline, professional photo, and skill summary About Me section with detailed background, education, and experience
 
 **Weather Data Web Page**
 
-Description: Developed a web page that fetches weather data from a weather API based on the user's location or inputted location.
+**Description:** Developed a web page that fetches weather data from a weather API based on the user's location or inputted location.
 
-Features: Display of current weather conditions, temperature, and other relevant information
+**Features:** Display of current weather conditions, temperature, and other relevant information
