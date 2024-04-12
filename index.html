@@ -1,45 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather App</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-  <script src="./script.js" defer></script>
-  <script defer data-domain="sidhhu0603.github.io/prodigywd05" src="https://plausible.io/js/script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio website</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/1a9a907f05.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-  <div class="card">
-    <div class="search">
-      <input type="text" class="search-bar" placeholder="Search">
-      <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
-          height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
-          </path>
-        </svg></button>
-      <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-crosshair"><circle
-            cx="12" cy="12" r="10"></circle><line x1="22" y1="12" x2="18" y2="12"></line><line x1="6" y1="12"
-            x2="2" y2="12"></line><line x1="12" y1="6" x2="12" y2="2"></line><line x1="12" y1="22" x2="12"
-            y2="18"></line></svg></button>
-    </div>
-
-    <div class="weather loading">
-      <h2 class="city">Weather in Indore</h2>
-      <h1 class="temp">51°C</h1>
-      <div class="flex">
-        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
-        <div class="description">Cloudy</div>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logoo.png" class="logo" />
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Pavithra R</span> from Sri Sairam Institute Of Technology</h1>
       </div>
-      <div class="humidity">Humidity: 60%</div>
-      <div class="wind">Wind speed: 6.2 km/h</div>
     </div>
   </div>
-</body>
 
+  <!-- About Section -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <!-- Add Pavithra's image here -->
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">Summary</h1>
+          <p>
+            A motivated and passionate person with a great enthusiasm in technology. I would like to serve the organization with my skills. I thrive in dynamic environments that challenge me to think creatively and problem solve efficiently.
+          </p>
+
+          <h1 class="sub-title">Education</h1>
+          <ul>
+            <li><span>B.E Computer Science & Engineering</span><br />Sri Sairam Institute Of Technology (2021-2025)<br />CGPA: 8.33</li>
+            <li><span>Prince Matriculation Higher Secondary School</span><br />(2019-2021)<br />91.5 Percentile</li>
+            <li><span>Prince Matriculation Higher Secondary School</span><br />(2018-2019)<br />90 Percentile</li>
+          </ul>
+
+          <h1 class="sub-title">Skills</h1>
+          <ul>
+            <li>C Programming</li>
+            <li>SQL</li>
+            <li>Figma</li>
+            <li>Front end tools</li>
+            <li>Content Writer</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <!-- Services items go here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Section -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <!-- Portfolio items go here -->
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>pavithraravindiran@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>8925789994</p>
+          <p>No. 5/265, Venkateshwara Nagar, 5th Street, Pozhichalur, Chennai - 600 074</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <a href="images/Pavithra_Resume.pdf" download class="btn btn2">Download CV</a>
+        <div class="contact-right">
+          <!-- Contact form goes here -->
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Pavithra. Made with ❤️</p>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript code for tabs and form submission goes here
+  </script>
+</body>
 </html>
